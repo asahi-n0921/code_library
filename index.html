@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+</head>
+<body>
+    <div class="wrap">
+
+
+        <!-- リスト -->
+        <div class="content">
+            <h2><img src="./image/top/section_1.jpg" alt="ご利用方法"></h2>
+            <p class="orange">見学や相談（要予約）を行っていますので気軽にご連絡ください。</p>
+            <dl class="content_flow">
+                <dt class="content_left">お問い合わせ</dt>
+                <dd class="content_right">利用をお考えの方、質問したい方は、お気軽にお問い合わせください。</dd>
+            </dl>
+            <figure><img src="./image/top/arrow.jpg" alt="矢印" class="arrow"></figure>
+            <dl class="content_flow yellow">
+                <dt class="content_left  content_left_2">説明と見学</dt>
+                <dd class="content_right content_right_2">
+                    当センターのスタッフから、プログラムの説明をいたします。
+                    <br>
+                    施設内の見学していただけます。
+                </dd>
+            </dl>
+            <figure><img src="./image/top/arrow.jpg" alt="矢印" class="arrow"></figure>
+            <dl class="content_flow">
+                <dt class="content_left content_left_2">市区町村への申請</dt>
+                <dd class="content_right content_right_2">
+                    お住まいのしく当村へ、受給申請をしてください。
+                    <br>
+                    相談支援員とサービス等の利用計画案を作成します。
+                </dd>
+            </dl>
+            <figure><img src="./image/top/arrow.jpg" alt="矢印" class="arrow"></figure>
+            <dl class="content_flow yellow">
+                <dt class="content_left">利用開始</dt>
+                <dd class="content_right">障がい福祉サービスの「受給者証」が発行されたら、契約を結んで利用を開始です！</dd>
+            </dl>
+        </div>
+
+
+        <!-- ピクチャーポップアップ -->
+
+        <div class="picture_list">
+            <div class="popupbg"></div>
+            <!--ポップアップ背景-->
+            
+            <div class="global_wrapper">
+                <ul class="item_wrapper">
+                    <li class="item">
+                        <!-- クラス名に"pop"、hrefにポップアップしたいID名を入力-->
+                        <a href="#img01_wrapper" class="pop"><img src="./image/kaiba_img/海馬_小1.jpg" alt="" width="220" height="220" class="thumb"></a>
+                        
+                        <!-- ポップアップしたい要素-->
+                        <div id="img01_wrapper" class="popup_wrapper">	
+                            <img src="./image/kaiba_img/海馬_小1.jpg" alt="" width="400" height="400" class="img">
+                            <p class="caption">Caption1</p>
+                            <div class="close_btn">×</div>
+                        </div>
+                        
+                    </li>
+                    <li class="item">
+                        <!-- クラス名に"pop"、hrefにポップアップしたいID名を入力-->
+                        <a href="#img02_wrapper" class="pop"><img src="./image/kaiba_img/海馬_小2.jpg" alt="" width="220" height="220" class="thumb"></a>
+
+                        <!-- ポップアップしたい要素-->
+                        <div id="img02_wrapper" class="popup_wrapper">	
+                            <img src="./image/kaiba_img/海馬_小2.jpg" alt="" width="400" height="400" class="img">
+                            <p class="caption">Caption2</p>
+                            <div class="close_btn">×</div>
+                        </div>
+                        
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+    
+    <script src="./js/jquery.js"></script>
+    <script src="./js/style.js"></script>
+</body>
+</html>
